@@ -17,3 +17,11 @@ Here's the process used to integrate the SDK into the **Example.xcodeproj**
   ```sh
   $ ./resign-zoom.sh
   ```
+
+2. Frameworks, Libraries, and Embedded Content
+
+* Under the 'General' settings of the 'example' target…
+* Click the add ('+') button and select 'Add Other…', 'Add Files'.
+* Select **all** of the files in the `ZoomVideoSDK` folder.
+* All of the files will now show in the 'Frameworks' folder in the project navigator.
+* Notice though, that nothing shows in the 'Framework, Libraries, and Embedded Content' section.
