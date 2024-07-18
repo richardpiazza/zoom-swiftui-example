@@ -11,6 +11,14 @@
 		E1723B892C496EC500676191 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1723B882C496EC500676191 /* ContentView.swift */; };
 		E1723B8B2C496EC500676191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1723B8A2C496EC500676191 /* Assets.xcassets */; };
 		E1723B8E2C496EC500676191 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1723B8D2C496EC500676191 /* Preview Assets.xcassets */; };
+		E19915892C4978C7005D6603 /* libcares.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E199153F2C4976BE005D6603 /* libcares.dylib */; };
+		E199158A2C4978C7005D6603 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19915272C4976BE005D6603 /* libcrypto.dylib */; };
+		E199158B2C4978C7005D6603 /* libjson.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19915402C4976BE005D6603 /* libjson.dylib */; };
+		E199158C2C4978C7005D6603 /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19915462C4976BE005D6603 /* libminizip.dylib */; };
+		E199158D2C4978C7005D6603 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19915222C4976BE005D6603 /* libssl.dylib */; };
+		E199158E2C4978C7005D6603 /* libzoombase_crypto_shared.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19915392C4976BE005D6603 /* libzoombase_crypto_shared.dylib */; };
+		E199158F2C4978C7005D6603 /* ZMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E199152E2C4976BE005D6603 /* ZMDB.framework */; };
+		E19915902C4978C7005D6603 /* ZMVideoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E199153C2C4976BE005D6603 /* ZMVideoSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +74,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19915892C4978C7005D6603 /* libcares.dylib in Frameworks */,
+				E199158A2C4978C7005D6603 /* libcrypto.dylib in Frameworks */,
+				E199158B2C4978C7005D6603 /* libjson.dylib in Frameworks */,
+				E199158C2C4978C7005D6603 /* libminizip.dylib in Frameworks */,
+				E199158D2C4978C7005D6603 /* libssl.dylib in Frameworks */,
+				E199158E2C4978C7005D6603 /* libzoombase_crypto_shared.dylib in Frameworks */,
+				E199158F2C4978C7005D6603 /* ZMDB.framework in Frameworks */,
+				E19915902C4978C7005D6603 /* ZMVideoSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
