@@ -20,7 +20,85 @@
 		E199158F2C4978C7005D6603 /* ZMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E199152E2C4976BE005D6603 /* ZMDB.framework */; };
 		E19915902C4978C7005D6603 /* ZMVideoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E199153C2C4976BE005D6603 /* ZMVideoSDK.framework */; };
 		E19915912C49797F005D6603 /* libmpg123_mac.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E19915252C4976BE005D6603 /* libmpg123_mac.bundle */; };
+		E19915932C497A14005D6603 /* annoter.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915422C4976BE005D6603 /* annoter.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915942C497A14005D6603 /* aomagent.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915432C4976BE005D6603 /* aomagent.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915952C497A14005D6603 /* aomhost.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199154C2C4976BE005D6603 /* aomhost.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E19915962C497A14005D6603 /* capHost.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199154A2C4976BE005D6603 /* capHost.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E19915972C497A14005D6603 /* cmmbiz.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915492C4976BE005D6603 /* cmmbiz.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915982C497A14005D6603 /* cmmlib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199153E2C4976BE005D6603 /* cmmlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915992C497A14005D6603 /* CptHost.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199153B2C4976BE005D6603 /* CptHost.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E199159A2C497A14005D6603 /* curl64.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199154B2C4976BE005D6603 /* curl64.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E199159B2C497A14005D6603 /* libcares.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199153F2C4976BE005D6603 /* libcares.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E199159C2C497A14005D6603 /* libcrypto.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915272C4976BE005D6603 /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E199159D2C497A14005D6603 /* libjson.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915402C4976BE005D6603 /* libjson.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E199159E2C497A14005D6603 /* libminizip.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915462C4976BE005D6603 /* libminizip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E199159F2C497A14005D6603 /* libssl.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915222C4976BE005D6603 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E19915A02C497A14005D6603 /* libzoombase_crypto_shared.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915392C4976BE005D6603 /* libzoombase_crypto_shared.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E19915A12C497A14005D6603 /* mcm.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915262C4976BE005D6603 /* mcm.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A22C497A14005D6603 /* nydus.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915482C4976BE005D6603 /* nydus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A32C497A14005D6603 /* protobuf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199152A2C4976BE005D6603 /* protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A42C497A14005D6603 /* ssb_sdk.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915232C4976BE005D6603 /* ssb_sdk.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A52C497A14005D6603 /* tp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199153D2C4976BE005D6603 /* tp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A62C497A14005D6603 /* util.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915452C4976BE005D6603 /* util.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A72C497A14005D6603 /* VideoSDK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199152C2C4976BE005D6603 /* VideoSDK.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E19915A82C497A14005D6603 /* viper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915242C4976BE005D6603 /* viper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915A92C497A14005D6603 /* xmpp_framework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915472C4976BE005D6603 /* xmpp_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915AA2C497A14005D6603 /* zConfCallbackDispatcher.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915282C4976BE005D6603 /* zConfCallbackDispatcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915AB2C497A14005D6603 /* zData.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199152B2C4976BE005D6603 /* zData.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915AC2C497A14005D6603 /* zlt.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199152D2C4976BE005D6603 /* zlt.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915AD2C497A14005D6603 /* ZMDB.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199152E2C4976BE005D6603 /* ZMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915AE2C497A14005D6603 /* ZMVideoSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199153C2C4976BE005D6603 /* ZMVideoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915AF2C497A14005D6603 /* zNetUtils.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E199153A2C4976BE005D6603 /* zNetUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915B02C497A14005D6603 /* ZoomTask.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915292C4976BE005D6603 /* ZoomTask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915B12C497A14005D6603 /* ZoomVideoSDKMeetingBridge.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915212C4976BE005D6603 /* ZoomVideoSDKMeetingBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915B22C497A14005D6603 /* zVideoApp.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915442C4976BE005D6603 /* zVideoApp.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E19915B32C497A14005D6603 /* zWebService.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = E19915412C4976BE005D6603 /* zWebService.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E19915922C4979C3005D6603 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E19915932C497A14005D6603 /* annoter.bundle in CopyFiles */,
+				E19915942C497A14005D6603 /* aomagent.bundle in CopyFiles */,
+				E19915952C497A14005D6603 /* aomhost.app in CopyFiles */,
+				E19915962C497A14005D6603 /* capHost.app in CopyFiles */,
+				E19915972C497A14005D6603 /* cmmbiz.framework in CopyFiles */,
+				E19915982C497A14005D6603 /* cmmlib.framework in CopyFiles */,
+				E19915992C497A14005D6603 /* CptHost.app in CopyFiles */,
+				E199159A2C497A14005D6603 /* curl64.framework in CopyFiles */,
+				E199159B2C497A14005D6603 /* libcares.dylib in CopyFiles */,
+				E199159C2C497A14005D6603 /* libcrypto.dylib in CopyFiles */,
+				E199159D2C497A14005D6603 /* libjson.dylib in CopyFiles */,
+				E199159E2C497A14005D6603 /* libminizip.dylib in CopyFiles */,
+				E199159F2C497A14005D6603 /* libssl.dylib in CopyFiles */,
+				E19915A02C497A14005D6603 /* libzoombase_crypto_shared.dylib in CopyFiles */,
+				E19915A12C497A14005D6603 /* mcm.bundle in CopyFiles */,
+				E19915A22C497A14005D6603 /* nydus.framework in CopyFiles */,
+				E19915A32C497A14005D6603 /* protobuf.framework in CopyFiles */,
+				E19915A42C497A14005D6603 /* ssb_sdk.bundle in CopyFiles */,
+				E19915A52C497A14005D6603 /* tp.framework in CopyFiles */,
+				E19915A62C497A14005D6603 /* util.framework in CopyFiles */,
+				E19915A72C497A14005D6603 /* VideoSDK.dylib in CopyFiles */,
+				E19915A82C497A14005D6603 /* viper.framework in CopyFiles */,
+				E19915A92C497A14005D6603 /* xmpp_framework.framework in CopyFiles */,
+				E19915AA2C497A14005D6603 /* zConfCallbackDispatcher.framework in CopyFiles */,
+				E19915AB2C497A14005D6603 /* zData.bundle in CopyFiles */,
+				E19915AC2C497A14005D6603 /* zlt.bundle in CopyFiles */,
+				E19915AD2C497A14005D6603 /* ZMDB.framework in CopyFiles */,
+				E19915AE2C497A14005D6603 /* ZMVideoSDK.framework in CopyFiles */,
+				E19915AF2C497A14005D6603 /* zNetUtils.framework in CopyFiles */,
+				E19915B02C497A14005D6603 /* ZoomTask.framework in CopyFiles */,
+				E19915B12C497A14005D6603 /* ZoomVideoSDKMeetingBridge.framework in CopyFiles */,
+				E19915B22C497A14005D6603 /* zVideoApp.bundle in CopyFiles */,
+				E19915B32C497A14005D6603 /* zWebService.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E1723B832C496EC500676191 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +301,7 @@
 				E1723B7F2C496EC400676191 /* Sources */,
 				E1723B802C496EC400676191 /* Frameworks */,
 				E1723B812C496EC400676191 /* Resources */,
+				E19915922C4979C3005D6603 /* CopyFiles */,
 			);
 			buildRules = (
 			);

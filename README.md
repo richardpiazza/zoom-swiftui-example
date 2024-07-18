@@ -45,3 +45,10 @@ Here's the process used to integrate the SDK into the **Example.xcodeproj**
 * Under the 'Build Phases' settings of the 'example' target…
 * Click the add button under 'Copy Bundle Resources'
 * select the `libmpg123_mac.bundle`.
+
+5. Copy Files
+
+* Under the 'Build Phases' settings of the 'example' target…
+* Add a new 'Copy Files' build phase.
+* Set the 'Destination' of the copy files phase to **Frameworks**
+* Add all of the files from the `ZoomVideoSDK` folder (which should now show under 'Frameworks') **except** `libmpg123_mac.bundle` and `ZoomAudioDevice.driver`.
