@@ -40,3 +40,8 @@ Here's the process used to integrate the SDK into the **Example.xcodeproj**
   * ZMDB.framework
   * ZMVideoSDK.framework
 
+4. Copy Bundle Resources
+
+* Under the 'Build Phases' settings of the 'example' target…
+* Click the add button under 'Copy Bundle Resources'
+* select the `libmpg123_mac.bundle`.
